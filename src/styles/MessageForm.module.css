@@ -1,0 +1,43 @@
+.messageFormContainer {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #e6ecf0;
+	border-width: 0 1px 12px;
+	padding: 0.5rem 1rem;
+}
+
+.messageForm {
+	display: flex;
+}
+
+.messageForm > textarea {
+	border: none;
+	width: 100%;
+	padding: 0 0 0.5rem;
+	outline: none;
+	font-size: 1.2rem;
+}
+
+footer {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+footer > button {
+	align-self: flex-end;
+	border-radius: 500px;
+	padding: 0.4rem 1rem;
+	font-weight: 700;
+	background: #1da1f2;
+	color: #fff;
+	margin-left: 0.5rem;
+}
+
+footer > button:disabled {
+	opacity: 0.5;
+}
+
+.error-text {
+	color: #d9534f;
+}

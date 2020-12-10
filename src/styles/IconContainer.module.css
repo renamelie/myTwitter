@@ -1,0 +1,44 @@
+.icon-group {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon-container {
+	padding: 0.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	transition: 200ms;
+}
+
+.icon-group:hover > .icon-blue {
+	color: #1da1f2;
+	background: #e8f5fe;
+}
+.icon-group:hover > .icon-text-blue {
+	color: #1da1f2;
+}
+.icon-group:hover > .icon-green {
+	color: #5cb85c;
+	background: #e1f1e1;
+}
+.icon-group:hover > .icon-text-green {
+	color: #5cb85c;
+}
+.icon-group:hover > .icon-red {
+	color: #d9534f;
+	background: #f1dbdb;
+}
+.icon-group:hover > .icon-text-red {
+	color: #d9534f;
+}
+
+.icon-text {
+	margin-left: 0.2rem;
+}
+
+.icon-isLike {
+	color: #d9534f;
+}
